@@ -4,12 +4,12 @@ class HelloWorld {
         System.out.println("HelloWorld");
         int i = 2;
         double j = 2.3;
-        float x = 1.22;
-        char ;
-        boolean ;
-        long  ;
-        string s = "asdasd"
-        const name = "george";
+        //float x = 1.22;
+        //char ;
+        //boolean ;
+        //long  ;
+        //string s = "asdasd"
+        //const name = "george";
 
 
     }
