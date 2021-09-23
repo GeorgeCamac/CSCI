@@ -15,4 +15,5 @@ public class Friend {
             return "Get away from me creep";
         }
     }
+    
 }
