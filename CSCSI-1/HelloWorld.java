@@ -2,8 +2,8 @@
 class HelloWorld {
     public static void main(String[] args){
         System.out.println("HelloWorld");
-        int i = 2;
-        double j = 2.3;
+       // int i = 2;
+        //double j = 2.3;
         //float x = 1.22;
         //char ;
         //boolean ;
