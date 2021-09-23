@@ -1,4 +1,4 @@
-
+import Week2.Access;
 
 public class Playground {
     public static void main(String[] args) {
@@ -9,10 +9,25 @@ public class Playground {
         System.out.println(name.replace("g","L"));
 
         // Method playground 
-
+        Counter count = new Counter();
+        System.out.println(count.getValue());
+        count.click();
+        System.out.println(count.getValue());
+        count.click();
+        System.out.println(count.getValue());
+        count.click();
+        count.click();
+        count.click();
+        System.out.println(count.getValue());
+        count.minusClick();
+        System.out.println(count.getValue());
+        count.reset();
+        System.out.println(count.getValue());
         // Method with Void
+        Access test = new Access();
+        System.out.println(test.getCat1());;
+
         addExclamationPoint(name);
-        
         // Method without Void
         newAddExclamationPoint(name);
     
@@ -28,6 +43,8 @@ public class Playground {
         String validateFriend = newFriend.validateFriend(name);
         System.out.println(validateFriend);
         System.out.println(newFriend.validateFriend("jake"));
+
+        
     }
 
 
