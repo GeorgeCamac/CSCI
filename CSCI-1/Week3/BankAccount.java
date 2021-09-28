@@ -26,4 +26,19 @@ public class BankAccount{
     public void monthlyFee(){
         withdraw(10);
     }
+    // P(1 + R/n)^(nt) - P
+    // P = principle
+    // t = years
+    // r = annual interest rate
+    // n = # of times its compounded
+    public void calcInterest(double p, int t, double r, int n){
+        double amount = p * Math.pow(1 + (r/n), n*t);
+        double compinterst = amount - p;
+        System.out.println("Compound interest after " + t + " years: " + compinterst);
+        System.out.println("Amount after " + t + " years: " + amount);
+    }
+
+
+
+
 }

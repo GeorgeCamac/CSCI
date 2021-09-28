@@ -19,7 +19,12 @@ public class BankAccountTester {
         System.out.println("Balance After Deposit");
         System.out.println(bobChecking.getBalance());
         
-        georgeChecking.monthlyFee();
+        // georgeChecking.monthlyFee();
+
         System.out.println(georgeChecking.getBalance());
+
+        georgeChecking.deposit(50000);
+        georgeChecking.calcInterest(georgeChecking.getBalance(), 10, .01 ,12);
+
     }
 }
