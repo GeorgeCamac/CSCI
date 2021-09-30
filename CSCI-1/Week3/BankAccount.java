@@ -1,5 +1,7 @@
 package Week3;
 
+import java.util.Scanner;
+
 public class BankAccount{
     private double balance;
 
@@ -38,7 +40,23 @@ public class BankAccount{
         System.out.println("Amount after " + t + " years: " + amount);
     }
 
+    public static int menu(){
+        
+        int selection;
+        Scanner input = new Scanner(System.in);
 
+        System.out.println("Please select an option:");
+        System.out.println("------------------------\n");
+        System.out.println("1: Get balance");
+        System.out.println("2: Deposit");
+        System.out.println("3: Withdraw");
+        System.out.println("0: Quit");
+        System.out.println("\n------------------------");
+
+        selection = input.nextInt();
+
+        return selection;
+    } 
 
 
 }
