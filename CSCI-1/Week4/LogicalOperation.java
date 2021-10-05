@@ -20,18 +20,19 @@ import java.util.Scanner;
         //     System.out.println("You need a heavy jacket");
         // }
 
-        int temp = 20;
-        boolean rain = false;
+        // int temp = 20;
 
-        if(temp <70 && rain != true){
-            System.out.println("You do not need a jacket");
-        }
-        else if(temp > 30 && temp <=70 && rain != true){
-            System.out.println("You will need a light jacket");
-        }
-        else{
-            System.out.println("You need a heavy jacket or it is raining");
-        }
+        // boolean rain = false; 
+
+        // if(temp <70 && rain != true){
+        //     System.out.println("You do not need a jacket");
+        // }
+        // else if(temp > 30 && temp <=70 && rain != true){
+        //     System.out.println("You will need a light jacket");
+        // }
+        // else{
+        //     System.out.println("You need a heavy jacket or it is raining");
+        // }
     
     // Scanner scanner = new Scanner(System.in);
     
